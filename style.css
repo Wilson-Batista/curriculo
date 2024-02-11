@@ -24,13 +24,14 @@ h2{
     color: white;
     margin-bottom: 0;
     margin-top: 0;
-    font-size: 25px;
+    font-size: 2vw;
 }
 h3,p, li{
     flex-wrap: nowrap;
     margin: 15pt;
-    font-size: 23px;
+    font-size: 1.5vw;
     font-style: normal;
+    word-break: break-all;
 }
 ul{
     list-style-type: circle;
@@ -75,9 +76,9 @@ a{
 .icone{
     display: flex;
     justify-content: center;
-    width: 200px;
+    width: 20vw;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 img{
     margin-top: 5px;
@@ -85,6 +86,7 @@ img{
 .texto-icone{
     margin-top: 0;
     margin-bottom: 5px;
+    text-align: center;
 }
 .icones{
     display: flex;
