@@ -31,12 +31,12 @@ h3,p{
     margin: 15pt;
     font-size: 2vw;
     font-style: normal;
-    word-break: break-all;
+    word-break: keep-all;
     text-align: justify;
 }
 ol{
-    font-size: 1vw;
-    word-break: break-all;
+    font-size: 2vw;
+    word-break: keep-all;
 }
 ul{
     display: flex;
