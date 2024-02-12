@@ -32,17 +32,18 @@ h3,p{
     font-size: 2vw;
     font-style: normal;
     word-break: break-all;
+    text-align: justify;
 }
 ol{
     font-size: 1vw;
     word-break: break-all;
 }
 ul{
+    display: flex;
+    flex-direction: column;
     list-style-type: circle;
-}
-p{
-    text-align: justify;
-
+    background-color: aqua;
+    margin-inline-end: 15pt;
 }
 a{
     color: black;
@@ -65,17 +66,15 @@ a{
     width: 440px;
     align-items: center;
     justify-content: center;
+    margin: 25pt;
+}
+.foto{
+    width: 100%;
 }
 .conteiner3{
     flex-direction: row;
     flex-wrap: nowrap;
     border: 8px solid black;
-}
-.espansivo{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
 }
 .icone{
     display: flex;
