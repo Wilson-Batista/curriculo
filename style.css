@@ -24,12 +24,12 @@ h2{
     color: white;
     margin-bottom: 0;
     margin-top: 0;
-    font-size: 28pt;
+    font-size: 6vw;
 }
 h3,p, li{
     flex-wrap: nowrap;
     margin: 15pt;
-    font-size: 23pt;
+    font-size: 3vw;
     font-style: normal;
     word-break: break-all;
 }
