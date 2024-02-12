@@ -36,7 +36,7 @@ h3,p{
     text-align: justify;
 }
 @media only screen and (max-width: 600px){
-    h3,p{
+    h3,p,ol{
         font-size: 14px;
     }
     h2{
@@ -44,7 +44,7 @@ h3,p{
     }
 }
 @media only screen and (min-width: 1200px){
-    h3,p{
+    h3,p,ol{
         font-size: 22px;
     }
     h2{
@@ -52,7 +52,6 @@ h3,p{
     }
 }
 ol{
-    font-size: 2vw;
     word-break: keep-all;
 }
 ul{
@@ -70,24 +69,19 @@ a{
 }
 .conteiner1{
     border-right: 0;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin: 0;
     padding: 1px;
-    width: 790px;
-    background-color: aqua;
+    width: 50vw;
 }
 .conteiner2{
     display: flex;
     border-left: solid 0px;
     width: max-content;
-    width: 440px;
+    width: 50vw;
     align-items: center;
     justify-content: center;
-    margin: 25pt;
-    background-color:blue;
-}
-.foto{
-    width: 100%;
+    margin: 0;
 }
 .conteiner3{
     flex-direction: row;
@@ -107,7 +101,7 @@ a{
     flex-direction: column;
     text-align: center;
 }
-img{
+.perfil-social{
     margin-top: 5px;
 }
 .texto-icone{
