@@ -1,6 +1,7 @@
 @charset "UTF8";
 body{
     background-color:dodgerblue;
+    font-size: 15pt;
 }
 .subtitulo{
     background-color: black;
@@ -24,15 +25,31 @@ h2{
     color: white;
     margin-bottom: 0;
     margin-top: 0;
-    font-size: 2vw;
+    font-size: 25px;
 }
 h3,p{
     flex-wrap: nowrap;
     margin: 15pt;
-    font-size: 2vw;
+    font-size: 18px;
     font-style: normal;
     word-break: keep-all;
     text-align: justify;
+}
+@media only screen and (max-width: 600px){
+    h3,p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    h3,p{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 30px;
+    }
 }
 ol{
     font-size: 2vw;
@@ -55,8 +72,9 @@ a{
     border-right: 0;
     flex-wrap: nowrap;
     margin: 0;
-    padding: 10px;
-    width: 780px;
+    padding: 1px;
+    width: 790px;
+    background-color: aqua;
 }
 .conteiner2{
     display: flex;
@@ -66,6 +84,7 @@ a{
     align-items: center;
     justify-content: center;
     margin: 25pt;
+    background-color:blue;
 }
 .foto{
     width: 100%;
