@@ -32,7 +32,11 @@
         </div>
         <div class="conteiner2">
             <picture>
-                <img class="foto" src="imagem/fotoPadrao.jpeg" alt="minha foto">
+                <source media="(max-width:450px )" width="70px" srcset="imagem/fotoPadrao.jpeg" type="image/jpg">
+                <source media="(max-width: 550px)" width="100px" srcset="imagem/fotoPadrao.jpeg" type="image/jpg">
+                <source media="(max-width: 650px)" width="130px" srcset="imagem/fotoPadrao.jpeg" type="image/jpg">
+                <source media="(max-width: 750px)" width="230px" srcset="imagem/fotoPadrao.jpeg" type="image/jpg">
+                <img width="300px" class="espansivo" src="imagem/fotoPadrao.jpeg" alt="Minha foto">
             </picture>
         </div>
     </div>

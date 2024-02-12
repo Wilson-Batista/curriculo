@@ -42,7 +42,6 @@ ul{
     display: flex;
     flex-direction: column;
     list-style-type: circle;
-    background-color: aqua;
     margin-inline-end: 15pt;
 }
 a{
@@ -75,6 +74,12 @@ a{
     flex-direction: row;
     flex-wrap: nowrap;
     border: 8px solid black;
+}
+.espansivo{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 .icone{
     display: flex;
