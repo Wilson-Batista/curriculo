@@ -29,7 +29,7 @@ h2{
 h3,p{
     flex-wrap: nowrap;
     margin: 15pt;
-    font-size: 1vw;
+    font-size: 2vw;
     font-style: normal;
     word-break: break-all;
 }
