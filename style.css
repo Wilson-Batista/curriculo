@@ -14,7 +14,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-h1,h2,h3{
+h1,h2,h3, li{
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
@@ -26,11 +26,15 @@ h2{
     margin-top: 0;
     font-size: 2vw;
 }
-h3,p, li{
+h3,p{
     flex-wrap: nowrap;
     margin: 15pt;
     font-size: 1vw;
     font-style: normal;
+    word-break: break-all;
+}
+ol{
+    font-size: 1vw;
     word-break: break-all;
 }
 ul{
