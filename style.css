@@ -76,13 +76,13 @@ a{
     flex-wrap: wrap;
     margin: 0;
     padding: 1px;
-    width: 50vw;
+    width: 70vw;
 }
 .conteiner2{
     display: flex;
     border-left: solid 0px;
     width: max-content;
-    width: 50vw;
+    width: 30vw;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -97,6 +97,7 @@ a{
     height: auto;
     display: block;
     margin: auto;
+    border-radius: 50%;
 }
 .icone{
     display: flex;
