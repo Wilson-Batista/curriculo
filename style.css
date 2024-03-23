@@ -28,7 +28,23 @@ h2{
     margin-top: 0;
     font-size: 25px;
 }
-h3,p,ol, .validador{
+.importante, .linkagem{
+    text-decoration: underline rgb(0, 204, 255);
+}
+
+.importante::before{
+    content: '( ';
+}
+
+.importante::after{
+    content: ' )';
+}
+
+.linkagem:hover{
+    font-weight: bolder;
+}
+
+h3,p,ol{
     flex-wrap: nowrap;
     margin: 15pt;
     font-size: 18px;
@@ -37,7 +53,7 @@ h3,p,ol, .validador{
     text-align: justify;
 }
 @media only screen and (max-width: 600px){
-    h3,p,ol,a, .validador{
+    h3,p,ol,.linkagem{
         font-size: 14px;
     }
     h2{
@@ -48,7 +64,7 @@ h3,p,ol, .validador{
     }
 }
 @media only screen and (min-width: 1200px){
-    h3,p,ol,a .validador{
+    h3,p,ol,.linkagem{
         font-size: 22px;
     }
     h2{
